@@ -1,0 +1,29 @@
+{
+    "links": [
+      {
+        "name": "mailto",
+        "url": "mailto:guillermo2210069@correo.uis.edu.co",
+        "image": "images/social/mailto.svg"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/gpintoruiz",
+        "image": "images/social/twitter.svg"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/gpintoruiz",
+        "image": "images/social/github.svg"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/guillepr/",
+        "image": "images/social/linkedin.svg"
+      },
+      {
+        "name": "orcid",
+        "url": "https://orcid.org/0009-0001-1356-3553",
+        "image": "images/social/orcid.svg"
+      }
+    ]
+  }

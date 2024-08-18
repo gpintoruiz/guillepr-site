@@ -1,4 +1,68 @@
-baseURL = 'https://guillepr.netlify.app/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hugo-winston-theme'
+baseURL = "https://guillepr.netlify.app/"
+languageCode = "en-us"
+theme = "hugo-winston-theme"
+themesDir = "themes"
+title = "Guillermo Pinto"
+paginate = 3
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[params]
+  google_analytics_id = ""
+  twitter_handle = "@gpintoruiz"
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = false
+  showIntroContentOnHomepage = true
+  showPostsOnHomepage = false
+  usePaginationOnHomepage = false
+  limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
+  sortPostsByDateOldestFirst = false
+  addDot = true
+  addFrame = false
+  highlightColor = '#32cd32'
+  baseColor = "#ffffff"
+  baseOffsetColor = "#d0f0c0"
+  headingColor = "#006400"
+  textColor = "#4e5157"
+  dotColor = "#32cd32"
+  enableGoogleFonts = true 
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+  fontFamilyHeading = "Poppins"
+  fontFamilyParagraph = "Helvetica"
+  fontFamilyMonospace = "monospace"
+
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 2
+    url = "/About/"
+  #[[menu.main]]
+  #  name = "Blog"
+  #  identifier = "blog"
+  #  weight = 3
+  #  url = "/posts/"
+  #[[menu.main]]
+  #  name = "Tags"
+  #  identifier = "tags"
+  #  weight = 4
+  #  url = "/tags/"
