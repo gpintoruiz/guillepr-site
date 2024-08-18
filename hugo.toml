@@ -1,0 +1,4 @@
+baseURL = 'https://guillepr.netlify.app/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-winston-theme'
