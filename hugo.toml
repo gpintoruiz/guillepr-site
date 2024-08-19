@@ -1,7 +1,5 @@
 baseURL = "https://guillepr.netlify.app/"
 languageCode = "en-us"
-theme = "hugo-winston-theme"
-themesDir = "themes"
 title = "Guillermo Pinto"
 paginate = 3
 pygmentsCodeFences = true
