@@ -1,3 +1,3 @@
-{{- if not (eq (getenv "HUGO_ENV") "development") and .Site.Params.plausible_analytics_domain }}
+{{- if and (ne (getenv "HUGO_ENV") "development") .Site.Params.plausible_analytics_domain }}
   <script defer data-domain="{{ .Site.Params.plausible_analytics_domain }}" src="https://plausible.io/js/plausible.js"></script>
 {{ end }}
