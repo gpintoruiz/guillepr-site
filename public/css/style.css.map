@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/home/guillermo/ssd/Github/guillepr-site",
+	"sourceRoot": "/home/guillermo/ssd/Github/guillepinto-site",
 	"sources": [
 		"assets/scss/style.scss",
 		"assets/scss/_normalize.scss",
